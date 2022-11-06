@@ -5,7 +5,7 @@ const shell = require("shelljs");
 
 const log4js = require("./logs");
 
-const SECRET = "tutulist-web-server";
+const SECRET = "**********";
 
 const router = new Router();
 router.prefix("/webhooks");
